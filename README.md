@@ -1,2 +1,2 @@
 # Password-Generator
-Week-3 Challenge, making a password generator in javascript
+This password generator will make a random password for you from 8-128 characters long, including upper, and lower case numbers, special characters, and numbers.

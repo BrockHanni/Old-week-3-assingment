@@ -13,7 +13,7 @@ var numbersChar = ["0","1","2","3","4","5","6","7","8","9"]
 var specialChar =  [ "@","%","+","/","'","!","#","$","^","?",":",",",")","(","}","{","]","[","~","-","_",".",]
 // Write password to the #password input
 
-function getPasswordOptions() {
+function passwordPossibilites() {
   var length = parseInt(
     prompt("Choose your character count! (8-128)"),
     
@@ -60,7 +60,7 @@ function getRandom(arr) {
 }
 
 function generatePassword() {
-  var options = getPasswordOptions();
+  var options = passwordPossibilites();
   var result = [];
   var possibleCharacters = [];
   var guaranteedCharacters = [];
